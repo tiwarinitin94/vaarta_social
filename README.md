@@ -1,0 +1,2 @@
+# vaarta_social
+This is previous version of my web site vaartalaap.com as a social network, which is written in raw php. And can be helpfull for some one who wants to learn about website designing with php. It also has used ajax , sql queries and jquery lib. So this repository has all web application package. If someone wants to understand the work, I can help, just email on - tiwarinitin94@gmail.com
