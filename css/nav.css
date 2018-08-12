@@ -1,0 +1,101 @@
+<style>
+.clearfix:after {
+    display:block;
+    clear:both;
+}
+
+.menu-wrap {
+    
+    box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+    background:#3e3436;
+	margin-left:5%;
+	margin-right:5%;
+}
+.menu {
+    text-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    margin-left:100px;
+	margin-right:20px auto;
+	margin-top:30px;
+	background-color:transparent;
+	
+}
+.menu a {
+    transition:all linear 0.15s;
+ color:#96BCEC;
+  text-decoration: none;
+  text-shadow:1px 2px 3px rgba(.2,2,.2,0.2);
+  font-family:papyrus;
+}
+.menu li {
+    text-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    margin:0px;
+    list-style:none;
+    font-family:papyrus;
+	 text-decoration: none;
+     color:#2e2728;
+}
+
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color:#be5b70;
+	z-index:-1;
+}
+
+ 
+/*----- Top Level -----*/
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:19px;
+    background:transparent;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.menu > ul > li > a {
+    padding:5px 5px;   
+    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+	text-decoration:none;
+}
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background:#fff;
+	text-decoration: none;
+}
+/*----- Bottom Level -----*/
+.menu li:active .sub-menu {
+    z-index:1;
+    opacity:40;
+	text-decoration: none;
+}
+.menu li:hover .sub-menu {
+    z-index:4;
+    opacity:40;
+	text-decoration: none;
+	border:1px #d9d9d9 .4;
+	box-shadow:10px 10px 6px rgba(4,4,4,0.6);
+}
+
+.sub-menu {
+    min-width:400px;
+	overflow-y:scroll;
+	height:400px;
+	border-left:.1px solid #d9d9d9;
+    padding:10px 10px 10px 10px;
+	 position:absolute;
+    top:100%;
+	background-color:#fff;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:4px 5px 6px rgba(4,4,4,0.6);
+	text-shadow:4px 5px 6px rgba(4,4,4,0.6);
+    text-decoration: none;
+
+}
+
+
+
+ 
+
+</style>

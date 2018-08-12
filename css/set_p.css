@@ -1,0 +1,148 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li a {
+    display: block;
+    width: 60px;
+}
+li label{
+    padding:5px;
+    display: block;
+    width: 190px;
+    color:#fff;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+} 
+
+li a {
+    display: block;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: rgb(250,250,250);
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 15px 0 12px 20px;
+    text-decoration: none;
+    width:180px;
+}
+li {
+    display: inline;
+}
+/* Change the link color on hover */
+li a:hover {
+    background-color: #999;
+    color: white;
+    width:180px;
+}
+.active {
+    background-color: rgb(250,250,250);
+    color: white;
+}
+li {
+    float: left;
+}
+
+
+ul {
+    background-color: rgb(250,250,250);
+}
+ul {
+    border: .2px solid rgba(50,50,50,.2);
+}
+
+li {
+    text-align: center;
+    border-bottom: .2px solid rgba(50,50,50,.2);
+}
+
+li:last-child {
+    border-bottom: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    background-color: rgb(250,250,250);
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+.mainbox
+{
+width:600px;
+margin:50px;
+ color:#999;
+ font-family:helvetica;
+ text-align:center;
+}
+.text_wrapper
+{
+text-align:left;
+color:#222;
+font-family:verdana;
+font-size:15px;
+border:solid 1px rgba(50,50,50,.3);
+padding:5px;
+width:597px;
+word-wrap:break-word;
+ 
+}
+.edit_link
+{
+float:right;
+text-decoration:none;
+font-family:helvetica;
+font-size:12px;
+color:#777;
+margin-right:-45px;
+margin-top:35px;
+}
+.edit_link_2
+{
+float:left;
+text-decoration:none;
+font-family:helvetica;
+font-size:12px;
+color:#777;
+
+margin-top:35px;
+}
+.editbox
+{
+border:solid 1px #0099CC; 
+width:600px; 
+font-size:15px;
+font-family:Arial, Helvetica, sans-serif; 
+padding:5px;
+resize:none;
+min-height: 100px;
+}
+.noscroll{
+overflow:hidden;	
+}
+.hiddendiv {
+  display: none;
+  white-space: pre-wrap;
+  width: 500px;
+  min-height: 50px;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  padding: 5px;
+  word-wrap: break-word;
+}

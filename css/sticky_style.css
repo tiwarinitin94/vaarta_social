@@ -1,0 +1,32 @@
+/* Styles for sticky content demo
+ * Author: Andrew Henderson (@AndrewHenderson)
+ */
+
+#wrapper { 
+	width:960px;
+	margin:0 auto;
+}
+#header {
+	border-bottom:1px solid #ccc;
+	padding:10px 0;
+}
+#sidebar {
+	float:right;
+	width:240px;
+}
+	#sidebar #widget {
+		width:240px;
+		margin-bottom:10px;
+		border-bottom:1px solid #ccc;
+	}
+#article {
+	width:660px;
+	padding-right:30px;
+	border-right:1px solid #ccc;
+}
+#footer {
+	border-top:1px solid #ccc;
+	padding:10px;
+}
+h1 { margin:0; }
+h2 { margin:0 0 0.5em; }
